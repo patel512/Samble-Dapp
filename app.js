@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var morgan = require('morgan');
 const cors = require('cors');
 var path = require('path');
-var config = require('./config');
+// var config = require('./config');
 
 
 
