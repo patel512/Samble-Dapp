@@ -28,11 +28,6 @@ function showowner(message) {
     hone.innerHTML = message;
 }
 
-function showpendingToken(message) {
-    let hone = document.getElementById('showPending');
-    hone.innerHTML = message;
-}
-
 
 
 

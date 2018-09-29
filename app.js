@@ -23,11 +23,16 @@ function initApp() {
     app.use(bodyParser.urlencoded({ extended: true }));
     app.use(cookieParser());
     app.use(express.static(path.join(__dirname, 'public', 'views')));
+    app.use(express.static(path.join(__dirname, 'public/javascripts/index.js')));
+    app.use(express.static(path.join(__dirname, 'public/javascripts/event.js')));
+    app.use(express.static(path.join(__dirname, 'build')));
     app.use(express.static('public'));
     app.use(cors());
 
   
-    app.use('/wallet', require('./routes/wallet.js'));
+    app.get('/', function(req, res) {
+        res.sendFile(path.join(__dirname + '/views/index.html'));
+    });
     
     app.use(function (req, res, next) {
         res.setHeader('Access-Control-Allow-Origin', '*');

@@ -51,7 +51,7 @@ window.addEventListener('load', function () {
                         updateMessage('You are on the mainnet...');
                         let tokenaddress = "0x74a901cd0642d2a07763e62019595454966f009b";
                         console.log("",tokenaddress);
-                        fetch('/build/contracts/Token.json')
+                        fetch('contracts/Token.json')
                             .then(response => response.json())
                             .then(json => {
                                 
