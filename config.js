@@ -5,6 +5,5 @@ module.exports = {
     'CreatorAddress': "0x80f793d184055b6d156530d36d5043a20f9805d3",
     'CreatorAddrPrivKey': "0xF1BE9C235B2F4BBE5CF56D361355E9BA05A6C65C1764681ADC6B3129F06BE596",
     'secret': "signinKey",
-    'database': 'mongodb://localhost:27017/Ranjith',
-    'HTTPProvider': 'https://rinkeby.infura.io/v3/6247443e8a4543e2b60c07e52d23e943',
+    'database': 'mongodb://localhost:27017/Ranjith'
 };
