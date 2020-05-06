@@ -1,4 +1,4 @@
-# Samble-Dapp
+# Dapp
 This just a sample Dappp for minting toke having basic Functionality
 
 Install metamask extension to your browser 
